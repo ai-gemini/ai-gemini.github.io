@@ -1,5 +1,5 @@
-baseurl = "https://download60.github.io"
-title = "Download Files"
+baseurl = "https://ai-gemini.github.io"
+title = "ai gemini"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
@@ -22,7 +22,7 @@ buildFuture = true
   priority = 0.8
   filename = "sitemap.xml"
 [permalinks]
-  download     = "/:year:month/:slug"
+  link     = "/:year:month:day/:slug"
   
 [params]
   text_color = ""
