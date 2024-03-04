@@ -1,0 +1,34 @@
+baseurl = "https://download60.github.io"
+title = "Download Files"
+contentdir    = "content"
+layoutdir     = "layouts"
+publishdir    = "public"
+languageCode = "en"
+resourceDir = "../resources"
+DefaultContentLanguage = "en"
+Paginate     = false
+
+PygmentsCodeFences = true
+PygmentsStyle      = "monokai"
+
+
+buildFuture = true
+
+[author]
+     name = "wahyu6070"
+     
+[sitemap]
+  changefreq = "always"
+  priority = 0.8
+  filename = "sitemap.xml"
+[permalinks]
+  download     = "/:year:month/:slug"
+  
+[params]
+  text_color = ""
+  author = ""
+  favicon = ""
+  site_logo = ""
+  description = "LiteGapps is a custom Google Apps on the Android operating system, an open source project that focuses on small, efficient, and comprehensive."
+  recent_posts_number = 3
+  

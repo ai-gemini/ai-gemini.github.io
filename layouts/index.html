@@ -1,0 +1,21 @@
+{{ partial "meta/main.html" . }}
+<head>
+{{ partial "head.html" . }}
+</head>
+<body>
+{{ partial "navbar.html"  . }}
+
+<main class="container">
+    {{ range .Site.Pages }}
+    {{- if .Permalink -}}
+    	{{ if .Params.type }}
+    		<div><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+    	{{ end }}
+    {{- end -}}
+  {{ end }}
+  
+  
+  {{ partial "footer.html" }}
+  </main>
+  </body>
+  </html>
